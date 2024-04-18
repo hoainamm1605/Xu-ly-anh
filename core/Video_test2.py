@@ -43,7 +43,7 @@ cap = cv2.VideoCapture(0)
 arrayResult = []
 lastIReuslt = {}
 #while (cap.isOpened()):
-while (True)
+while (True) :
     cv2.waitKey(20)
 
     # Image preprocessing
